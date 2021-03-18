@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd" xmlns:e="http://ant.apache.org/ivy/extra">
 
-	<info organisation="havis/custom/harting" module="assignmentcontrol" default="true" e:app="havis.custom.harting.assignmentcontrol" />
+	<info organisation="havis/app" module="assignmentcontrol" default="true" e:app="havis.app.assignmentcontrol" />
 
 	<configurations>
 		<conf name="default" />
@@ -12,8 +12,8 @@
 
 	<publications>
 		<artifact name="havis.assignmentcontrol" type="app" conf="app" />
-		<artifact name="havis.custom.harting.assignmentcontrol-javadoc" conf="doc" />
-		<artifact name="havis.custom.harting.assignmentcontrol-sources" conf="src" />		
+		<artifact name="havis.app.assignmentcontrol-javadoc" conf="doc" />
+		<artifact name="havis.app.assignmentcontrol-sources" conf="src" />		
 	</publications>
 
 	<dependencies>

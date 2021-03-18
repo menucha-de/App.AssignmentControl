@@ -1,13 +1,13 @@
 Bundle-Name: Ha-VIS Custom Assignment Control App
-Bundle-SymbolicName: havis.custom.harting.assignmentcontrol
+Bundle-SymbolicName: havis.app.assignmentcontrol
 Bundle-Version: 2.7.0
 Application-Name: Assignment Control
 Implementation-Version: 2.7
 Bundle-ManifestVersion: 2
-Bundle-Vendor: HARTING IT_SD
+Bundle-Vendor: Menucha Team <info@menucha.de>
 Havis-Bundle: 
- /OSGI-INF/havis.custom.harting.assignmentcontrol.properties
-Bundle-Activator: havis.custom.harting.assignmentcontrol.osgi.Activator
+ /OSGI-INF/havis.app.assignmentcontrol.properties
+Bundle-Activator: havis.app.assignmentcontrol.osgi.Activator
 Import-Package: 
  com.fasterxml.jackson.annotation,
  com.fasterxml.jackson.databind,
